@@ -3,15 +3,27 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Jai Singhal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">   
     <link rel="stylesheet" type="text/css" media="screen" href="particle.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-
     <link rel="stylesheet" type="text/css" media="screen" href="typing.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
-    
+   <style>
+ button { display: inline-block; position: relative; background: none; border-width: 0.04em 0.04em 0.09em 0.04em; color:
+#fff; font-size: 18px; cursor:
+pointer; margin: 20px 30px; background: rgba(0, 0, 0, 0.09); } .btn-text { display: block; padding: 25px 80px; } button::before,
+button::after { content: ""; width: 0; height: 2px; position: absolute; transition: all 0.2s linear; background: #fff; }
+.btn-text::before, .btn-text::after { content: ""; width: 2px; height: 0; position: absolute; transition: all 0.2s linear;
+background: #fff; } button:hover::before, button:hover::after { width: 100%; } button:hover .btn-text::before, button:hover
+.btn-text::after { height: 100%; } /*----- button 1 -----*/ .btn-1::before, .btn-1::after { transition-delay: 0.2s; } .btn-1
+.btn-text::before, .btn-1 .btn-text::after { transition-delay: 0s; } .btn-1::before { right: 0; top: 0; } .btn-1::after {
+left: 0; bottom: 0; } .btn-1 .btn-text::before { left: 0; top: 0; } .btn-1 .btn-text::after { right: 0; bottom: 0; } .btn-1:hover::before,
+.btn-1:hover::after { transition-delay: 0s; } .btn-1:hover .btn-text::before, .btn-1:hover .btn-text::after { transition-delay:
+0.2s; } .btn-text{ font-weight: 400; }
+
+   </style> 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -28,6 +40,12 @@
             <h1>
             living in <span class="main_head">India</span>
             </h1>
+            <a href = "resume.pdf" target = "_blank">
+                <button class="btn-1">
+                    <span class="btn-text">Resume</span>
+                </button>
+            </a>
+
 
 
         </div>

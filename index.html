@@ -12,38 +12,23 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
     
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <section style="min-height:640px;">
     <div id="particles-js">
         <div class="header">
-            <h1>
-                <span class="site-title">Jai Singhal</span>
-                <div id="typing site-title">
-                    <h1>I am 
-                        <span class="txt-rotate" data-period="2000" 
+            <h1>Hi, My name is <span class = "main_head" >Jai Singhal</span></h1>
+            <div id="typing">
+                <h1>and I'm a <span class="txt-rotate" data-period="1800" 
                         data-rotate='[ "nerdy", "Web Dev", "Djangonaut", "Pythonista", "Human" ]'></span>
-                    </h1>
-                    <br>
-                </div>
-
-
-            </h1>
-            <div class="header-icons">
-                <a aria-label="Send email" href="#">
-                    <i class="icon fa fa-envelope"></i>
-                </a>
-                <a aria-label="My Twitter" target="_blank" href="#">
-                    <i class="icon fa fa-twitter" aria-hidden="true"></i>
-                </a>
-                <a aria-label="My Google Plus" target="_blank" href="#">
-                    <i class="icon fa fa-google-plus" aria-hidden="true"></i>
-                </a>
-                <a aria-label="My Github" target="_blank" href="#">
-                    <i class="icon fa fa-github-alt" aria-hidden="true"></i>
-                </a>
+                </h1>
+                <br>
             </div>
+            <h1>
+            living in <span class="main_head">India</span>
+            </h1>
+
 
         </div>
         <a class="down" href="#about" data-scroll>
@@ -62,45 +47,54 @@
         <div class="user">
             <div class="tech">
                 <h2>Design</h2>
-                <i class="devicon-html5-plain-wordmark"></i>
+                <i class="fa fa-html5"></i>
                 <i class="devicon-bootstrap-plain-wordmark colored"></i>
-                <i class="devicon-sass-original colored"></i>
+                <i class="fa fa-css3 fa-sm"></i>
                 <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse. Vinyl XOXO lumbersexual</p>
             </div>
             <div class="tech">
                 <h2>Code</h2>
+                <i class="devicon-python-plain-wordmark"></i>
+                <i class="devicon-django-plain colored"></i>
                 <i class="devicon-javascript-plain colored"></i>
-                <i class="devicon-react-original-wordmark colored"></i>
-                <i class="devicon-nodejs-plain-wordmark"></i>
                 <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse. Vinyl XOXO lumbersexual</p>
             </div>
             <div class="tech">
                 <h2>Tools</h2>
                 <i class="devicon-git-plain"></i>
-                <i class="devicon-gulp-plain colored"></i>
-                <i class="devicon-atom-original-wordmark"></i>
+                <img src = "digitalocean.svg" style="width:80px; height:60px;">
+                <img src="sublime-icon.png" style="width:80px; height:60px;">
                 <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse. Vinyl XOXO lumbersexual</p>
             </div>
         </div>
 
+
     </section>
-    <section id="projects">
-        <div class="user-details">
-            <h1> Featured Projects </h1>
+
+
+
+
+<section id="projects" class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s">
+    <div class="user-details">
+<h1 class="wow bounceInUp"> Featured Projects </h1>
         </div>
         <div class="user-projects">
             <div class="images-right">
-                <img alt="mountains" src="/particle/assets/img/mountains.jpg" />
+                <img alt="mountains" src="croma.jpg" />
             </div>
             <div class="contents">
-                <h3> Project Title </h3>
+                <h3> Croma</h3>
                 <ul>
-                    <li> Featured Skills</li>
+                    <li> Python3, Django</li>
+                    <li> Django Rest Framework</li> 
+                    <li> HTML/CSS3, JS/JQuery, Bootstrap3</li>
                 </ul>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat.</p>
-                <a class="project-link" href="#">Check it out</a>
+                <p>
+                This is the project which I have made in Django for my dad's medical shop. This project is beneficial for the ones, who
+                runs a chemist shop and Pharmacy shop, where user can create the stock of items, create Sale Invoice and make Purchase Invoice
+                and take the Reports of the same
+                </p>
+                <a class="project-link" href="https://github.com/jai-singhal/croma" target = "_blank">Check it out</a>
             </div>
         </div>
         <div class="user-projects">
@@ -121,20 +115,36 @@
 
     </section>
 
+
+
+
+
+
+
+
+
+
     <footer class="footer">
         <p>Build with
             <span class="love">❤</span> by
             <a href="https://github.com/jai-singhal">Jai Singhal</a>
         </p>
     </footer>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script src="https://unpkg.com/sweet-scroll/sweet-scroll.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script src="typing.js"></script>
 <script src="particle.js"></script>
 <script>
-document.addEventListener('DOMContentLoaded', () => { const scroller = new SweetScroll({/* some options */}); }, false);
+    $(document).ready(function(){
+        document.addEventListener('DOMContentLoaded', () => { 
+            const scroller = new SweetScroll({}); 
+        }, false);
+        
+        new WOW().init();
+ 
+    })
 </script>
 </body>
 </html>

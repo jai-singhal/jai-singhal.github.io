@@ -51,7 +51,10 @@ window.onload = function () {
     // INJECT CSS
     var css = document.createElement("style");
     css.type = "text/css";
-    css.innerHTML = ".txt-rotate > .wrap {}";
+    css.innerHTML = ".txt-rotate > .wrap {\
+            border-width:0 2px 0 0; border-color: white; border-style: solid;\
+            animation: blinker 0.5s linear infinite;\
+    }";
     document.body.appendChild(css);
 };
 

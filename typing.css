@@ -78,3 +78,8 @@ font-size: 30px;
 }
 
 
+@keyframes blinker {
+  50% {
+    border-color: transparent;
+  }
+}

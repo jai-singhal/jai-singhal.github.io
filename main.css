@@ -5114,3 +5114,96 @@ body {
     margin: 0;
     color: #fff
 }
+
+ button {
+     display: inline-block;
+     position: relative;
+     background: none;
+     border-width: 0.04em 0.04em 0.09em 0.04em;
+     color: #fff;
+     font-size: 18px;
+     cursor: pointer;
+     margin: 20px 30px;
+     background: rgba(0, 0, 0, 0.09);
+ }
+
+ .btn-text {
+     display: block;
+     padding: 25px 80px;
+ }
+
+ button::before,
+ button::after {
+     content: "";
+     width: 0;
+     height: 2px;
+     position: absolute;
+     transition: all 0.2s linear;
+     background: #fff;
+ }
+
+ .btn-text::before,
+ .btn-text::after {
+     content: "";
+     width: 2px;
+     height: 0;
+     position: absolute;
+     transition: all 0.2s linear;
+     background: #fff;
+ }
+
+ button:hover::before,
+ button:hover::after {
+     width: 100%;
+ }
+
+ button:hover .btn-text::before,
+ button:hover .btn-text::after {
+     height: 100%;
+ }
+
+ /*----- button 1 -----*/
+
+ .btn-1::before,
+ .btn-1::after {
+     transition-delay: 0.2s;
+ }
+
+ .btn-1 .btn-text::before,
+ .btn-1 .btn-text::after {
+     transition-delay: 0s;
+ }
+
+ .btn-1::before {
+     right: 0;
+     top: 0;
+ }
+
+ .btn-1::after {
+     left: 0;
+     bottom: 0;
+ }
+
+ .btn-1 .btn-text::before {
+     left: 0;
+     top: 0;
+ }
+
+ .btn-1 .btn-text::after {
+     right: 0;
+     bottom: 0;
+ }
+
+ .btn-1:hover::before,
+ .btn-1:hover::after {
+     transition-delay: 0s;
+ }
+
+ .btn-1:hover .btn-text::before,
+ .btn-1:hover .btn-text::after {
+     transition-delay: 0.2s;
+ }
+
+ .btn-text {
+     font-weight: 400;
+ }

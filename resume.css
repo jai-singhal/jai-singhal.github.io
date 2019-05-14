@@ -1,5 +1,5 @@
 #command{
-    width: 94%;
+    width: 90%;
     border: 0px;
     background-color: black;
     color: #CCC5B9;
@@ -22,3 +22,16 @@
 }
 
 
+.borderless td, .borderless th {
+    border: none;
+    color: #CCC5B9;
+}
+.proj_name strong, .proj_name a{
+    color:darkgoldenrod;
+}
+.proj_name a{
+    text-decoration: underline;
+}
+.proj_name span{
+    color:chocolate;
+}

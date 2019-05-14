@@ -6,9 +6,32 @@
     <meta charset="utf-8" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+
+    <meta name="description" content="Resume | Jai Singhal" />
+    <meta name="keywords" content="Jai Singhal, resume of jai singhal, django, python, data structure, 
+        jai singhal resume" />
+
+    <meta name="author" content="Jai Singhal">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="1 month">
+
+    <meta property="og:title" content="Resume | Jai Singhal">
+    <meta property="og:site_name" content="Resume|Jai Singhal">
+    <meta property="og:url" content="https://jai-singhal.github.io">
+    <meta property="og:description" content="Resume | Jai Singhal">
+    <meta property="og:type" content="website">
+
+    <meta name="theme-color" content="black">
+    <meta name="msapplication-navbutton-color" content="black">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
     <link rel="shortcut icon" type="image/png" href="/favicon.png" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="resume.css" media="screen" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="resume.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="resume.css" media="screen" />
     <style type="text/css">
         body {
@@ -24,242 +47,246 @@
 <body>
     <div>
         <div>
-            <hr style="border-color:white; border-width:5px" />
-            <center><strong>Welcome to Terminal Resume</strong></center>
-            <center>Resume of <strong>Jai Singhal</strong></center>
+            <pre class="ascii" style="color:white;">
+                     _         _              _                _             _ 
+  ___ __   __       (_)  __ _ (_)        ___ (_) _ __    __ _ | |__    __ _ | |
+ / __|\ \ / /       | | / _` || | _____ / __|| || '_ \  / _` || '_ \  / _` || |
+| (__  \ V /   _    | || (_| || ||_____|\__ \| || | | || (_| || | | || (_| || |
+ \___|  \_/   (_)  _/ | \__,_||_|       |___/|_||_| |_| \__, ||_| |_| \__,_||_|
+                  |__/                                  |___/                  
+            </pre>
 
-            <hr style="border-color:white; border-width:5px" />
-            </p>
-        </div>
-        <script>
-                
+            <div id="head">
+                <span id="MyClockDisplay" class="clock" onload="showTime()"></span>
 
-        </script>
-        <div id="resume-container">
-            <div id="executed_commands">
-                <div>Note: Enter <i>help</i> to get list of all available commands</div>
+                <p class="welcome">---- Welcome to my web resume
+                    (start with "<strong class="bold" style="color:blue">help</strong>" if you are lost)</p>
+                Counting my breath since <span id="count-up">
+                </span>
             </div>
 
-            <div id="command-line">
-                <span>&gt;&gt;</span>
-                <input type="text" autofocus="autofocus" id="command" />
+            <div id="resume-container">
+                <div id="executed_commands">
+                    <div></div>
+                </div>
+
+                <div id="command-line">
+                    <span style="color:green">➜</span> <span style="color:cyan">[jai@root]</span>
+                    <input type="text" autofocus="autofocus" id="command" />
+                </div>
             </div>
         </div>
-    </div>
 
-    <!-- Resume Sections -->
-
-
-
-    <!-- 1. About -->
-    <div id="about">
-        <div><strong>About Me</strong></div>
-        <div>
-            <p>
-                His full name is Jai Singhal. He is a computer science engineer from SKIT Jaipur, India. He is a
-                developer
-                and programmer with good insights in Data structure and algorithm.
-            </p>
-            <p>
-                Jai is helping in nature, he always helps others to get their things done in any of the possible ways,
-                which makes him different from others. He considers himself as a constant learner in every field of
-                life what allows him to adapt himself to new technologies in a short period of time.
-            </p>
-            <p>
-                Jai has expertise in languages like C/C++, Python, Javascript. Precisely he is a Django developer, who
-                loves Web scrapping also. He helped many of his customers in building their MVP's
-            </p>
+        <!-- Resume Sections -->
+        <!-- 1. About -->
+        <div id="about">
+            <div><strong>About Me</strong></div>
+            <div>
+                <p>
+                    His full name is Jai Singhal. He is a computer science engineer from SKIT Jaipur, India. He is a
+                    developer
+                    and programmer with good insights in Data structure and algorithm.
+                </p>
+                <p>
+                    Jai is helping in nature, he always helps others to get their things done in any of the possible
+                    ways,
+                    which makes him different from others. He considers himself as a constant learner in every field of
+                    life what allows him to adapt himself to new technologies in a short period of time.
+                </p>
+                <p>
+                    Jai has expertise in languages like C/C++, Python, Javascript. Precisely he is a Django developer,
+                    who
+                    loves Web scrapping also. He helped many of his customers in building their MVP's
+                </p>
+            </div>
+            <div>
+                Some activities that I was involved in are:
+                <ul>
+                    <li><strong><a href="https://www.hackerearth.com/challenges/college/code-emblaze/"
+                                target="_blank">Code
+                                Emblaze</a> (2016)</strong>
+                        - Problem setter and organizer of a national-level coding competition on online coding platform
+                        HackerEarth, in which more
+                        than 300 coders actively participated.</li>
+                    <li><strong>Rajasthan IT Day (2017) </strong>
+                        - First Position in Blind Coding Event</li>
+                    <li><strong>Pyclub Mentor </strong>
+                        - Mentor of College coding club</li>
+                </ul>
+            </div>
         </div>
-        <div>
-            Some activities that I was involved in are:
-            <ul>
-                <li><strong><a href="https://www.hackerearth.com/challenges/college/code-emblaze/" target="_blank">Code
-                            Emblaze</a> (2016)</strong>
-                    - Problem setter and organizer of a national-level coding competition on online coding platform
-                    HackerEarth, in which more
-                    than 300 coders actively participated.</li>
-                <li><strong>Rajasthan IT Day (2017) </strong>
-                    - First Position in Blind Coding Event</li>
-                <li><strong>Pyclub Mentor </strong>
-                    - Mentor of College coding club</li>
-            </ul>
+
+        <!-- 2. Education  -->
+        <div id="education">
+            <div><strong>Education</strong></div>
+            <div>
+                <ul>
+                    <li><strong>SKIT Jaipur, 2015-2019</strong></li>
+                    <p style="margin: 0">B.Tech Computer Science and Engineering</p>
+
+                    <li><strong>Vidyasthali Public School Jaipur, 2013-2015</strong></li>
+                    <p style="margin: 0">Class 12th - 90.2%</p>
+
+                    <li><strong>Vidyasthali Public School Jaipur, 2011-2013</strong></li>
+                    <p style="margin: 0">Class 10th - 9.0 CGPA</p>
+                </ul>
+            </div>
         </div>
-    </div>
 
-    <!-- 2. Education  -->
-    <div id="education">
-        <div><strong>Education</strong></div>
-        <div>
-            <ul>
-                <li><strong>SKIT Jaipur, 2015-2019</strong></li>
-                <p style="margin: 0">B.Tech Computer Science and Engineering</p>
-
-                <li><strong>Vidyasthali Public School Jaipur, 2013-2015</strong></li>
-                <p style="margin: 0">Class 12th - 90.2%</p>
-
-                <li><strong>Vidyasthali Public School Jaipur, 2011-2013</strong></li>
-                <p style="margin: 0">Class 10th - 9.0 CGPA</p>
-            </ul>
-        </div>
-    </div>
-
-    <!-- 3. Projects  -->
-    <div id="projects">
-        <br />
-        <div><strong>Projects:</strong></div>
-        <div>
-            <ul>
-                <li><strong><a href="https://github.com/jai-singhal/croma" target="_blank">Croma</a></strong>
-                    | Python | Django | Django Rest Framework
-                    <br>
-                    <ul>
-                        <li>Timeline: July 2017 – Sept 2017</li>
-                        <li>Pharmacy Management System developed for my dad’s pharmacy shop.</li>
-                        <li>Reverse engineered a medical software, which was previously built on VB.</li>
-                        <li>Apps include item master, sales, and purchase invoice, reports etc.</li>
-                        <li>Built with Python3, Django, Django Rest Framework, Postgresql,
-                            Javascript(jQuery), HTML/CSS</li>
-                    </ul>
-                </li>
-                <br />
-                <li><strong> PRODUCT RECOMMENDATION SYSTEM</strong> | Python | Django |
-                    Sentiment Analysis | Scrappy | Machine Learning | NLP | MongoDB | Postgresql
-                    <br>
-                    <ul>
-                        <li> Timeline: Jan 2019 - April 2019 | Major Project</li>
-                        <li>Web Based app that finds recommends the best products to the consumers in each
-                            category, using Sentiment Analysis and Machine Learning, this tool understands the
-                            opinions of users and calculates a rating of each product.</li>
-                        <li>This tool also detects fake/biased/spam reviews and excludes them while
-                            calculating the optimized rating.</li>
-                        <li>Features: Product Recommendation, Review Scrapping, Sentiment Analysis of Reviews,
-                            Detection of Fake Reviews
-                        </li>
-                    </ul>
-                </li>
-                <br />
-
-                <li><strong>Code Duo</strong> | React.js | Socket.io | Rethink.db | WebRTC
-                    <ul>
-                        <li>Timeline: May 2018 – July 2018</li>
-                        <li>Real-time communication with the help of Audio/Video/Text Chat, Bidirectional
-                            Code Editor, Whiteboard.</li>
-                        <li>Built with NodeJS, ReactJS, RethinkDB, WebRTC, Socket.io</li>
-                    </ul>
+        <!-- 3. Projects  -->
+        <div id="projects">
+            <br />
+            <div><strong>Projects:</strong></div>
+            <div>
+                <ul>
+                    <li class="proj_name"><strong><a href="https://github.com/jai-singhal/croma"
+                                target="_blank">Croma</a></strong>
+                        <span> | Python | Django | Django Rest Framework </span>
+                        <br>
+                        <ul>
+                            <li>Timeline: July 2017 – Sept 2017</li>
+                            <li>Pharmacy Management System developed for my dad’s pharmacy shop.</li>
+                            <li>Reverse engineered a medical software, which was previously built on VB.</li>
+                            <li>Apps include item master, sales, and purchase invoice, reports etc.</li>
+                            <li>Built with Python3, Django, Django Rest Framework, Postgresql,
+                                Javascript(jQuery), HTML/CSS</li>
+                        </ul>
+                    </li>
+                    <br />
+                    <li class="proj_name"><strong> PRODUCT RECOMMENDATION SYSTEM</strong>
+                        <span> | Python | Django | Sentiment Analysis | Scrappy |
+                            Machine Learning | NLP | MongoDB | Postgresql</span>
+                        <br>
+                        <ul>
+                            <li> Timeline: Jan 2019 - April 2019 | Major Project</li>
+                            <li>Web Based app that finds recommends the best products to the consumers in each
+                                category, using Sentiment Analysis and Machine Learning, this tool understands the
+                                opinions of users and calculates a rating of each product.</li>
+                            <li>This tool also detects fake/biased/spam reviews and excludes them while
+                                calculating the optimized rating.</li>
+                            <li>Features: Product Recommendation, Review Scrapping, Sentiment Analysis of Reviews,
+                                Detection of Fake Reviews
+                            </li>
+                        </ul>
+                    </li>
                     <br />
 
-                <li><strong>Python Complier</strong> | C++ | LEX | YACC
-                    <ul>
-                        <li>Timeline: April 2018 – April 2018</li>
-                        <li>Basic Compiler for compiling python programs. Built on YACC, Lex & C++.</li>
-                        <li>Statements such as Assignment, while, if/else, print, expression evaluation
-                            can be intepreted by the compiler</li>
-                    </ul>
-                </li>
+                    <li class="proj_name"><strong>Code Duo</strong>
+                        <span> | React.js | Socket.io | Rethink.db | WebRTC</span>
+                        <ul>
+                            <li>Timeline: May 2018 – July 2018</li>
+                            <li>Real-time communication with the help of Audio/Video/Text Chat, Bidirectional
+                                Code Editor, Whiteboard.</li>
+                            <li>Built with NodeJS, ReactJS, RethinkDB, WebRTC, Socket.io</li>
+                        </ul>
+                        <br />
 
-                <br />
+                    <li class="proj_name"><strong>Python Compiler</strong>
+                        <span> | C++ | LEX | YACC</span>
+                        <ul>
+                            <li>Timeline: April 2018 – April 2018</li>
+                            <li>Basic Compiler for compiling python programs. Built on YACC, Lex & C++.</li>
+                            <li>Statements such as Assignment, while, if/else, print, expression evaluation
+                                can be intepreted by the compiler</li>
+                        </ul>
+                    </li>
 
-                <li><strong><a href="https://djangopy.org" target="_blank">DjangoPy</a></strong>
-                    <ul>
-                        <li>
-                            djangopy.org is a blog for Django enthusiasts. Built using Jekyll and hosted on GitHub.</li>
-                </li>
-            </ul>
-            </ul>
-        </div>
-    </div>
+                    <br />
 
-    <!-- 4. Experience  -->
-    <div id="experience">
-        <div><strong>Experience</strong></div>
-        <div>
-            <ul>
-                <li><strong>UNIONSAPP - Intern</strong></li>
-                <ul>
-                    <li>Timeline: June 2018 - July 2018</li>
-                    <li>Developed an API based on Django Rest Framework for James Gatusso Reality</li>
-                    <li>Full Stack Development in AG Gems Jaipur website using Django/Python,
-                        Bootstrap4.</li>
+                    <li class="proj_name"><strong><a href="https://djangopy.org" target="_blank">DjangoPy</a></strong>
+                        <ul>
+                            <li>
+                                djangopy.org is a blog for Django enthusiasts. Built using Jekyll and hosted on GitHub.
+                            </li>
+                    </li>
                 </ul>
-            </ul>
-        </div>
-    </div>
-
-    <div id="ls">
-        <div>
-            <div><strong>Available Commands</strong></div>
-            <ul>
-                <li>about</li>
-                <li>education</li>
-                <li>projects</li>
-                <li>experience</li>
-                <li>skills</li>
-                <li>contact</li>
-                <li>help</li>
-                <li>download</li>
-                <li>clear</li>
-            </ul>
-        </div>
-    </div>
-
-    <!-- 5. Skills  -->
-    <div id="skills">
-        <div><strong>Technical Skills</strong></div>
-        <div>
-            <ul>
-                <li><strong>Languages</strong> - C, C++, Python, JavaScript</li>
-                <li><strong>Web Development</strong> - Django, Django Rest Framework, HTML, CSS, jQuery, JavaScript,
-                    Bootstrap, </li>
-                <li><strong>Operating Systems</strong> - Linux Distros(Debian, Arch), Windows</li>
-                <li><strong>Tools/Technologies</strong> - Docker, Selenium, Git, Scrappy, Mysql, Postgresql, Mongodb,
-                    RethinkDB</li>
-            </ul>
+                </ul>
+            </div>
         </div>
 
-        <div><strong>CourseWork</strong></div>
-        <div>
-            <ul>
-                <li>Data Structures and Algorithms</li>
-                <li>Functional Programming</li>
-                <li>Design and analysis of Algorithms</li>
-                <li>Object Oriented Programming</li>
-                <li>Operating System</li>
-                <li>Theory of Computation</li>
-                <li>Databases</li>
-            </ul>
+        <!-- 4. Experience  -->
+        <div id="experience">
+            <div><strong>Experience</strong></div>
+            <div>
+                <ul>
+                    <li><strong>UNIONSAPP - Intern</strong></li>
+                    <ul>
+                        <li>Timeline: June 2018 - July 2018</li>
+                        <li>Developed an API based on Django Rest Framework for James Gatusso Reality</li>
+                        <li>Full Stack Development in AG Gems Jaipur website using Django/Python,
+                            Bootstrap4.</li>
+                    </ul>
+                </ul>
+            </div>
         </div>
-    </div>
 
-    <!-- 6. Contact  -->
-    <div id="contact">
-        <p>
-            Email: <a href="mailto:jaisinghal48@gmail.com" target="_blank">jaisinghal48@gmail.com</a><br>
-            LinkedIn: <a href="https://www.linkedin.com/in/jai-singhal/"
-                target="_blank">https://www.linkedin.com/in/jai-singhal/</a><br>
-            Github: <a href="https://github.com/jai-singhal" target="_blank">https://github.com/jai-singhal</a><br>
-            Quora: <a href="https://github.com/jai-singhal" target="_blank">https://github.com/jai-singhal</a><br>
-            StackOverflow <a href="https://stackoverflow.com/users/6899815/jai-singhal" target="_blank">
-                https://stackoverflow.com/users/6899815/jai-singhal</a><br>
-            Facebook: <a href="https://www.facebook.com/jaisinghal48" target="_blank">
-                https://www.facebook.com/jaisinghal48</a><br>
-            HackerEarth: <a href="https://www.hackerearth.com/@Jai_Singhal" target="_blank">
-                https://www.hackerearth.com/@Jai_Singhal</a><br>
-        </p>
-    </div>
+        <div id="ls">
+            <div>
+                <div><strong>Available Commands</strong></div>
+                <p>about, education, projects, experience, skills,
+                    contact, download, clear</p>
+            </div>
+        </div>
 
-    <!-- 7. Download -->
-    <div id="download">
-        <p>Downloading resume..<br>
-            Note: If you are facing any problem, then click <strong><a href="./resume.pdf">HERE</a></strong> to download
-        </p>
-    </div>
+        <!-- 5. Skills  -->
+        <div id="skills">
+            <div><strong>Technical Skills</strong></div>
+            <div>
+                <ul>
+                    <li><strong>Languages</strong> - C, C++, Python, JavaScript</li>
+                    <li><strong>Web Development</strong> - Django, Django Rest Framework, HTML, CSS, jQuery, JavaScript,
+                        Bootstrap, </li>
+                    <li><strong>Operating Systems</strong> - Linux Distros(Debian, Arch), Windows</li>
+                    <li><strong>Tools/Technologies</strong> - Docker, Selenium, Git, Scrappy, Mysql, Postgresql,
+                        Mongodb,
+                        RethinkDB</li>
+                </ul>
+            </div>
 
-    <!-- 8. Error -->
-    <div id="error">
-        <p><strong>Error</strong>: Command not found!</p>
-        <pre style="color:white">
-        ___________________________________________________________
-        < Enter <strong><i>help</i></strong> to get list of all available commands>
+            <div><strong>CourseWork</strong></div>
+            <div>
+                <ul>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Functional Programming</li>
+                    <li>Design and analysis of Algorithms</li>
+                    <li>Object Oriented Programming</li>
+                    <li>Operating System</li>
+                    <li>Theory of Computation</li>
+                    <li>Databases</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 6. Contact  -->
+        <div id="contact">
+            <p>
+                Email: <a href="mailto:jaisinghal48@gmail.com" target="_blank">jaisinghal48@gmail.com</a><br>
+                LinkedIn: <a href="https://www.linkedin.com/in/jai-singhal/"
+                    target="_blank">https://www.linkedin.com/in/jai-singhal/</a><br>
+                Github: <a href="https://github.com/jai-singhal" target="_blank">https://github.com/jai-singhal</a><br>
+                Quora: <a href="https://github.com/jai-singhal" target="_blank">https://github.com/jai-singhal</a><br>
+                StackOverflow <a href="https://stackoverflow.com/users/6899815/jai-singhal" target="_blank">
+                    https://stackoverflow.com/users/6899815/jai-singhal</a><br>
+                Facebook: <a href="https://www.facebook.com/jaisinghal48" target="_blank">
+                    https://www.facebook.com/jaisinghal48</a><br>
+                HackerEarth: <a href="https://www.hackerearth.com/@Jai_Singhal" target="_blank">
+                    https://www.hackerearth.com/@Jai_Singhal</a><br>
+            </p>
+        </div>
+
+        <!-- 7. Download -->
+        <div id="download">
+            <p>Downloading resume..<br>
+                Note: If you are facing any problem, then click <strong><a href="./resume.pdf">HERE</a></strong> to
+                download
+            </p>
+        </div>
+
+        <!-- 8. Error -->
+        <div id="error">
+            <p style="color:red;"><strong>Error</strong>: Command not found!</p>
+            <pre style="color:white">
+        < Enter <strong style="color:blue"><i>help</i></strong> to get list of all available commands >
         -----------------------------------------------------------
             \   ^__^
             \   (oo)\_______
@@ -269,30 +296,74 @@
         </pre>
 
 
-    </div>
-
-    <!-- 9. clear -->
-    <div id="clear"></div>
-
-    <!-- 10. Help -->
-    <div id="help">
-        <div>
-            ------------------ <br>
-            Built-in Commands <br>
-            ------------------ <br>
-            <p>about, education, projects, experience, skills,
-                contact, download, clear</p>
         </div>
-    </div>
-    <!-- Resume sections end -->
 
+        <!-- 9. clear -->
+        <div id="clear"></div>
 
-    <div class="hack">
-        <div class="terminal">
+        <!-- 10. Help -->
+        <div id="help">
+            <div class="col-md-5">
+                <table class="table borderless table-sm">
+                    <thead>
+                        <tr>
+                            <th>command</th>
+                            <th>description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>about</td>
+                            <td>Read more about me</td>
+                        </tr>
+                        <tr>
+                            <td>education</td>
+                            <td>Read about my qualifications</td>
+                        </tr>
+
+                        <tr>
+                            <td>projects</td>
+                            <td>Read some of my amazing projects</td>
+
+                        </tr>
+
+                        <tr>
+                            <td>experience</td>
+                            <td>See my past experience</td>
+
+                        </tr>
+                        <tr>
+                            <td>skills</td>
+                            <td>See me skills</td>
+
+                        </tr>
+
+                        <tr>
+                            <td>contact</td>
+                            <td>Find out ways to contact me</td>
+
+                        </tr>
+
+                        <tr>
+                            <td>download</td>
+                            <td>Download my resume</td>
+
+                        </tr>
+
+                        <tr>
+                            <td>clear</td>
+                            <td>clear the window</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
         </div>
-    </div>
-    <script type="text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type='text/javascript' src="resume.js"></script>
+        <!-- Resume sections end -->
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script type='text/javascript' src="resume.js"></script>
 </body>
 
 </html>

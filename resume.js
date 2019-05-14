@@ -224,3 +224,8 @@ function getAge() {
   setTimeout(getAge, 1000);
 }
 getAge();
+
+$("html").click(function(){
+  $("#command").focus();
+
+})

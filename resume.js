@@ -46,7 +46,7 @@ function run_command(){
         element = document.getElementById('error'); 
 
       if(input == 'download'){
-        window.open('resume.pdf', '_blank');
+        window.open('resume__jai_singhal.pdf', '_blank');
       }
 
       else if(input == 'clear'){

@@ -45,8 +45,10 @@ function run_command(){
             if(available_cmd.indexOf(input) < 0)
         element = document.getElementById('error'); 
 
-      if(input == 'download')
-        window.open('./resume.pdf', '_blank');
+      if(input == 'download'){
+        window.open('resume.pdf', '_blank');
+      }
+
       else if(input == 'clear'){
         clear_console();
         return;

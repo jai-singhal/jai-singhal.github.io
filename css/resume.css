@@ -1,4 +1,5 @@
 
+
 #command{
     display: inline-block;
     /* width: 100%; */
@@ -19,6 +20,9 @@
     width: 100%;
 }
 
+.ascii{
+    color:white;
+}
 
 #about, #education, #projects, #experience, #skills, #contact, #connect, #error, #help, #download, #ls{
     display:none;
@@ -46,3 +50,4 @@
 .proj_name span{
     color:chocolate;
 }
+

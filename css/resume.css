@@ -7,7 +7,7 @@
     background-color: black;
     color: #CCC5B9;
     outline-width: 0;
-    font-size: 16px !important;
+    font-size: 15px !important;
     margin-bottom: 20px;
     font-family: "Lucida Console", Monaco, monospace;
     text-transform: lowercase;
@@ -19,6 +19,10 @@
     display: inline-block;
     width: 100%;
 }
+#head, #resume-container{
+    font-size: 14px;
+}
+
 
 .ascii{
     color:white;

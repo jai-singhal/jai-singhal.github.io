@@ -13,6 +13,23 @@ Link - [https://jai-singhal.github.io](https://jai-singhal.github.io)
 - Download resume with download command
 - Display interactive error message on incorrect command
 - Auto scroll down console with command output.
+- Multiple themes: dark, monokoi, sublime, light, light-dark.
+
+## Help
+
+|Command|Description|
+|--- |--- |
+|about|Read more about me|
+|education|Read about my qualifications|
+|projects|Read some of my amazing projects|
+|experience|See my past experience|
+|skills|See me skills|
+|contact|Find out ways to contact me|
+|download|Download my resume|
+|theme|Change the theme of the terminal. Available themes: dark, light, monokoi, sublime,light-dark|
+|clear|clear the window|
+
+
 
 ## Special Thanks
 Please checkout another terminal resume from here: 

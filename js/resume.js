@@ -59,6 +59,9 @@ cmd.addEventListener("keyup", function (event) {
 	} else if ((event.keyCode === 32 && event.ctrlKey)) {
 		event.preventDefault();
 		tab_completion();
+	} else if (event.keyCode === 76 && event.ctrlKey) {	// ctrl + l pressed
+		var element = document.getElementById("executed_commands");
+		element.innerHTML = "";
 	}
 });
 
@@ -146,11 +149,15 @@ function run_command() {
 	cmd_output.appendChild(container);
 	container.innerHTML = `<span style = "color:green">➜</span>
     <span style = "color:cyan">[jai@root]</span> ` + input;
-	cmd_output.appendChild(output);
-	cmd_list.push(input);
+	if(output !== undefined){
+	// only if user has typed some command, add it to list of executed commands
+		cmd_output.appendChild(output);
+		cmd_list.push(input);
+	}
 
 	var element = document.getElementById("executed_commands");
-	element.appendChild(cmd_output);
+	element.appendChild(cmd_output);	// this would now add an empty prompt
+	// if user just pressed enter without typing any command
 
 	cmd.value = "";
 	cmd_index = cmd_list.length - 1;

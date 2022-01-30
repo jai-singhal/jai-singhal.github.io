@@ -28,7 +28,7 @@
     color:white;
 }
 
-#about, #education, #projects, #experience, #skills, #contact, #connect, #error, #help, #download, #ls{
+.topic{
     display:none;
 }
 

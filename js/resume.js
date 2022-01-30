@@ -12,6 +12,7 @@ var available_cmd = [
 	"clear",
 	"ls",
 	"theme",
+	"publications",
 ];
 
 var available_themes = {
@@ -35,13 +36,16 @@ var available_themes = {
 		"background_color": "#FFFFFF",
 		"color": "black",
 		"type": 1
-
 	},
 	"light-dark": {
 		"background_color": "#131417",
 		"color": "#3E7EFF",
 		"type": 0
-
+	},
+	"default": {
+		"background_color": "#131417",
+		"color": "#3E7EFF",
+		"type": 0
 	}
 };
 var cmd = document.getElementById("command");

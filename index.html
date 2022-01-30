@@ -35,7 +35,8 @@
             color: #3E7EFF;
             padding-left: 12px;
         }
-        #command{
+
+        #command {
             background-color: #131417;
         }
     </style>
@@ -44,7 +45,7 @@
 <body>
     <div class=console>
         <div>
-<pre class="ascii">
+            <pre class="ascii">
                      _         _              _                _             _ 
   ___ __   __       (_)  __ _ (_)        ___ (_) _ __    __ _ | |__    __ _ | |
  / __|\ \ / /       | | / _` || | _____ / __|| || '_ \  / _` || '_ \  / _` || |
@@ -56,12 +57,12 @@ Fork/Star on <a target = "_blank"
 href = "https://github.com/jai-singhal/jai-singhal.github.io/">Github</a> </pre>
             <div id="head">
                 <span id="MyClockDisplay" class="clock" onload="showTime()"></span>
-                <p class="welcome">Welcome to my web resume
+                <p class="welcome">Welcome to Jai's web resume
                     (start with "<strong class="bold" style="color:blue">help</strong>" if you are lost).
                     <a href="resources/resume_2022.pdf" target=_blank><u><strong>Download</strong></u></a> the resume.
                 </p>
 
-                Counting my breath since <span id="count-up">
+                Counting his breath since <span id="count-up">
                 </span>
             </div>
 
@@ -81,13 +82,13 @@ href = "https://github.com/jai-singhal/jai-singhal.github.io/">Github</a> </pre>
 
     <!-- Resume Sections -->
     <!-- 1. About -->
-    <div id="about">
+    <div id="about" class = "topic">
         <div><strong>About</strong></div>
         <div>
             <p>
-                His full name is Jai Singhal. He is a computer science engineer from SKIT Jaipur, India. He is a
-                developer and programmer with good insights in Data structure and algorithm. He is currently pursuing
-                his masters degree from Birla Institute of Technology and Science(BITS), Pilani.
+                His full name is Jai Singhal. He completed his masters degree in Computer Scienece from Birla Institute
+                of Technology and Science(BITS), Pilani. He is a
+                developer and programmer with good insights in Data structure and algorithm.
             </p>
             <p>
                 Jai is helping in nature, he always helps others to get their things done in any of the possible
@@ -103,6 +104,9 @@ href = "https://github.com/jai-singhal/jai-singhal.github.io/">Github</a> </pre>
         <div>
             Some activities that he was involved with:
             <ul>
+                <li><strong>Author/Maintainer @<a href="https://djangopy.org" target="_blank">DjangoPY</a> </strong>
+                    - Blog for Django Enthusiasts. 
+                </li>
                 <li><strong>Graduate Teaching Assistant </strong>
                     - He worked as a Teaching Assistant for the CN F303 course under Dr. Ashutosh Bhatia. His
                     responsibilities were to create coding
@@ -110,7 +114,8 @@ href = "https://github.com/jai-singhal/jai-singhal.github.io/">Github</a> </pre>
                 </li>
                 <li><strong><a href="https://www.hackerearth.com/challenges/college/code-emblaze/" target="_blank">Code
                             Emblaze</a> (2016)</strong>
-                    - He was problem setter and organizer of a national-level coding competition on online coding platform
+                    - He was problem setter and organizer of a national-level coding competition on online coding
+                    platform
                     HackerEarth, in which more
                     than 300 coders actively participated.</li>
                 <li><strong>Rajasthan IT Day (2017) </strong>
@@ -122,12 +127,12 @@ href = "https://github.com/jai-singhal/jai-singhal.github.io/">Github</a> </pre>
     </div>
 
     <!-- 2. Education  -->
-    <div id="education">
+    <div id="education" class = "topic">
         <div><strong>Education</strong></div>
         <div>
             <ul>
                 <li><strong>BITS Pilani, 2019-2021</strong></li>
-                <p style="margin: 0">ME Computer Science - 7 CGPA</p>
+                <p style="margin: 0">ME Computer Science - 8.22 CGPA</p>
                 <li><strong>SKIT Jaipur, 2015-2019</strong></li>
                 <p style="margin: 0">B.Tech Computer Science and Engineering - 71.5%</p>
 
@@ -141,13 +146,25 @@ href = "https://github.com/jai-singhal/jai-singhal.github.io/">Github</a> </pre>
     </div>
 
     <!-- 3. Projects  -->
-    <div id="projects">
+    <div id="projects" class = "topic">
         <br />
         <div>
             <strong>Projects:</strong>
         </div>
         <div>
             <ul>
+                <li class="proj_name"><strong><a href="https://github.com/vibhor70/dyanamoDB" target="_blank">Digi
+                            Locker</a></strong>
+                    <span> | Zookeeper | FastAPI | Docker | Network Programming </span>
+                    <br>
+                    <ul>
+                        <li>Timeline: Nov 2020 – Dec 2020</li>
+                        <li>Developed a distributed database with help of zookeeper coordinator service.</li>
+                        <li>The distributed database consists of several datanodes running on containers ,two gateways
+                            running also on containers and an api server which sends the REST api request to GATEWAY
+                            ,which then forwards to data nodes accordingly</li>
+                    </ul>
+                </li>
                 <li class="proj_name"><strong><a href="https://github.com/jai-singhal/digilocker" target="_blank">Digi
                             Locker</a></strong>
                     <span> | Blockchain | Flask | Network Security </span>
@@ -242,49 +259,86 @@ href = "https://github.com/jai-singhal/jai-singhal.github.io/">Github</a> </pre>
         </div>
     </div>
 
+    <!--  Publications -->
+    <div id="publications" class = "topic">
+        <ul>
+            <li><strong>Jai Singhal</strong> and Ankit Gautam and Ashutosh Bhatia and Ankit Agrawal and Rekha Kaushik,
+                "{DD-Locker:} Blockchain Based Decentralized Personal Document Locker", ICOIN 2022
+            <li><strong>Jai Singhal</strong> and Pratik Narang, <a target="_blank"
+                    href="https://www.researchgate.net/publication/350445628_DeblurRL_Image_Deblurring_with_Deep_Reinforcement_Learning">DeblurRL</a>:
+                Image deblurring with Deep Reinforcement Learning. CVIP, India, Dec 2020</li>
+        </ul>
+    </div>
+
+
     <!-- 4. Experience  -->
-    <div id="experience">
+    <div id="experience" class = "topic">
         <div><strong>Experience</strong></div>
         <div>
+            <li><strong>Netapp - Member of Technical Staff 2</strong></li>
             <ul>
+                <li>
+                    Timeline: Jan 2021 - Present
+                </li>
+                <li>
+                    Worked on a dashboard which aims to monitor product releases, builds, code commits for each build in
+                    the pipeline. Used Golang and React(with Typescript) for building the tool.
+                </li>
+                </li>
+                Designed a framework on top of Locust(Python), to perform Scale and Load performance for project Astra.
+                Also created a dashboard to visualize the data. Used Python, Locust, InfluxDB, Grafana
+                </li>
+
                 <li><strong>Netapp - Intern</strong></li>
                 <ul>
                     <li>Timeline: May 2020 - June 2020</li>
                     <li>Summer Intern in Netapp Solidre team.
-                    <li>Built a Grafana dashboard on Build Stack data.</li>
-                    <li>Collect and process system-generated messages on public slack channels</li>
+                    <li>Developed a Grafana dashboard to visualize datasets.</li>
+                    <li>Developed several automation scripts using Python.</li>
 
                 </ul>
-                <li><strong>UNIONSAPP - Intern</strong></li>
+                <li><strong>Freelancer - Remote</strong></li>
                 <ul>
-                    <li>Timeline: June 2018 - July 2018</li>
-                    <li>Developed an API based on Django Rest Framework for James Gatusso Reality</li>
-                    <li>Full Stack Development in AG Gems Jaipur website using Django/Python,
-                        Bootstrap4.</li>
+                    <li>Timeline: Feb 2017 - Nov 2020</li>
+                    <li>
+                        Helped students, researchers, developers in their programming problems from all around the
+                        world.
+                    </li>
+                    <li>
+                        Performed various projects, assignments using C, C++, Python, and Javascript.
+                    </li>
+
+                    <li><strong>UNIONSAPP - Intern</strong></li>
+                    <ul>
+                        <li>Timeline: June 2018 - July 2018</li>
+                        <li>Developed an API based on Django Rest Framework for US-based Client</li>
+                        <li>Full Stack Development in local retailer website using Django/Python</li>
+                    </ul>
                 </ul>
-            </ul>
         </div>
     </div>
 
-    <div id="ls">
+    <div id="ls" class = "topic">
         <div>
             <div><strong>Available Commands</strong></div>
-            <p>about, education, projects, experience, skills,
+            <p>about, education, publications, projects, experience, skills,
                 contact, download, theme, clear</p>
         </div>
     </div>
 
     <!-- 5. Skills  -->
-    <div id="skills">
+    <div id="skills" class = "topic">
         <div><strong>Technical Skills</strong></div>
         <div>
             <ul>
-                <li><strong>Languages</strong> - C, C++, Python, JavaScript</li>
-                <li><strong>Web Development</strong> - Django, Django Rest Framework, HTML, CSS, jQuery, JavaScript,
+                <li><strong>Languages</strong> - C, C++, Python, JavaScript, Golang</li>
+                <li><strong>Web Development</strong> - Django, Django Rest Framework, ReactJS, Flask, FastAPI, HTML,
+                    CSS, jQuery,
                     Bootstrap, </li>
-                <li><strong>Operating Systems</strong> - Linux Distros(Debian, Arch), Windows</li>
-                <li><strong>Tools/Technologies</strong> - Docker, Selenium, Git, Scrappy, Mysql, Postgresql,
-                    Mongodb,
+                <li><strong>Operating Systems</strong> - Linux Distros(Debian, Arch), Windows, Mac</li>
+                <li><strong>Tools/Technologies</strong> - Docker, Selenium, Git, Scrapy, BeautifulSoup, Mysql,
+                    Postgresql,
+                    Mongodb, Ethereum/Blockchain,
                     RethinkDB</li>
             </ul>
         </div>
@@ -304,7 +358,7 @@ href = "https://github.com/jai-singhal/jai-singhal.github.io/">Github</a> </pre>
     </div>
 
     <!-- 6. Contact  -->
-    <div id="contact">
+    <div id="contact" class = "topic">
         <p>
             Email: <a href="mailto:jaisinghal48@gmail.com" target="_blank">jaisinghal48@gmail.com</a><br>
             LinkedIn: <a href="https://www.linkedin.com/in/jai-singhal/"
@@ -317,12 +371,14 @@ href = "https://github.com/jai-singhal/jai-singhal.github.io/">Github</a> </pre>
                 https://stackoverflow.com/users/6899815/jai-singhal</a><br>
             Facebook: <a href="https://www.facebook.com/jaisinghal48" target="_blank">
                 https://www.facebook.com/jaisinghal48</a><br>
-            Instagram: <a href = "https://www.instagram.com/__jai_singhal__/" target="_blank">https://www.instagram.com/__jai_singhal__/</a><br>
+            Instagram: <a href="https://www.instagram.com/jai_si__/"
+                target="_blank">https://www.instagram.com/__jai_singhal__/</a><br>
         </p>
     </div>
 
+
     <!-- 7. Download -->
-    <div id="download">
+    <div id="download" class = "topic">
         <p>Downloading resume..<br>
             Note: If you are facing any problem, then click <strong><a target=_blank
                     href="resources/resume_2022.pdf">HERE</a></strong> to
@@ -331,7 +387,7 @@ href = "https://github.com/jai-singhal/jai-singhal.github.io/">Github</a> </pre>
     </div>
 
     <!-- 8. Error -->
-    <div id="error">
+    <div id="error" class = "topic">
         <p style="color:red;"><strong>Error</strong>: Command not found!</p>
         <pre style="color:white">
         < Enter <strong style="color:blue"><i>help</i></strong> to get list of all available commands >
@@ -345,10 +401,10 @@ href = "https://github.com/jai-singhal/jai-singhal.github.io/">Github</a> </pre>
     </div>
 
     <!-- 9. clear -->
-    <div id="clear"></div>
+    <div id="clear" class = "topic"></div>
 
     <!-- 10. Help -->
-    <div id="help">
+    <div id="help" class = "topic">
         <div class="col-md-5">
             <table class="table borderless table-sm">
                 <thead>
@@ -370,7 +426,10 @@ href = "https://github.com/jai-singhal/jai-singhal.github.io/">Github</a> </pre>
                     <tr>
                         <td>projects</td>
                         <td>Read some of my amazing projects</td>
-
+                    </tr>
+                    <tr>
+                        <td>publications</td>
+                        <td>Read some of my research work</td>
                     </tr>
 
                     <tr>
@@ -397,7 +456,7 @@ href = "https://github.com/jai-singhal/jai-singhal.github.io/">Github</a> </pre>
                     <tr>
                         <td>theme</td>
                         <td>Change the theme of the terminal. Available themes: dark, light, monokoi, sublime,
-                            light-dark</td>
+                            light-dark(default)</td>
                     </tr>
 
                     <tr>
